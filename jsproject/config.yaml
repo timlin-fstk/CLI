@@ -1,0 +1,18 @@
+version: 0.1.0
+name: jsproject
+description: description
+tagNames:
+  - default-tag-from-loc-cli
+timeoutSeconds: 180
+aggregatorLogic:
+  name: aggregator
+  file: aggregator-logic.js
+genericLogics:
+  - name: generic-1
+    file: 1.js
+    tagNames:
+      - default-tag-from-loc-cli
+  - name: generic-2
+    file: 2.js
+    tagNames:
+      - default-tag-from-loc-cli

@@ -1,0 +1,8 @@
+method: GET
+mode: Sync
+encapsulation: true
+name: this-is-an-example
+path: /this/is/an/example/path
+dataProcessPids:
+  - pid: 00000000-0000-0000-0000-000000000000
+    revision: latest

@@ -1,0 +1,7 @@
+baseURL: https://api.loc-qa-test2.fst.network
+namespace: loc-qa-test2
+
+## authURL: https://auth.loc-qa-test2.fst.network/auth
+authURL: https://auth.cellar.fst.network/auth
+realm: loc-dev
+clientId: loc-studio-frontend

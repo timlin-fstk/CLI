@@ -1,0 +1,26 @@
+executionResultTimeout: 180s
+requests:
+  - dataProcessIdentity:
+      maybeRevision: 1
+      permanentIdentity: 00000000-0000-0000-0000-000000000000
+    payload:
+      http:
+        apiGatewayIdentityContext:
+          id: 00000000-0000-0000-0000-000000000000
+          name: string
+        apiIdentityContext:
+          id: 00000000-0000-0000-0000-000000000000
+          name: string
+        requestId: "42"
+        scheme: https
+        version: HTTP/1.1
+        host: loc.example.com
+        path: /hello
+        method: POST
+        headers:
+          Content-Type: application/json
+        query: "?name=Arthur-Dent&age=42"
+        body:
+          name: "Arthur Dent"
+          age: 42
+    resultAggregationPath: /result
