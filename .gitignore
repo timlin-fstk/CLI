@@ -1,6 +1,7 @@
 /loc
 /jsproject/build
 /jsproject/node_modules
+/jsproject/.deploy-info.json
 
 
 /tsproject/build

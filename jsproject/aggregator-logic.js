@@ -3,7 +3,16 @@
 *  The codes in 'run' is executed when no error occurred in Aggregator Logic.
 *
 */
-export async function run(ctx) {}
+export async function run(ctx) {
+
+  ctx.agents.result.finalize({
+    status: "ok",
+    response: {
+        message: "Kitty Meow ~~~~~~~~~~~"
+    }
+  });
+
+}
 
 
 /**

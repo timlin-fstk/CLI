@@ -4,12 +4,12 @@
 *
 */
 
-//import { saySomething } from "../../helper/hello";
+import { saySomething } from "../../helper/hello";
 
 
 export async function run(ctx) {
   console.log(ctx);
-  //saySomething("Hello!!");
+  saySomething("Hello!!");
 }
 
 
